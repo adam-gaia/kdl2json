@@ -1,0 +1,17 @@
+[package]
+name = "kdl2json"
+description = "Convert kdl to json"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/adam-gaia/kdl2json"
+repository = "https://github.com/adam-gaia/kdl2json"
+include = ["src/**/*", "LICENSE-*", "README.md"]
+authors = ["Adam Gaia <git@agaia.dev"]
+
+[dependencies]
+anyhow = "1.0.98"
+kdl = "3.0.0"
+serde = { version = "1.0.226", features = ["derive"] }
+serde_json = "1.0.145"
+serde_kdl = "0.1.0"
